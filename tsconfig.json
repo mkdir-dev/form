@@ -1,0 +1,45 @@
+{
+  "include": [
+    "src",
+    "src/types/fonts.d.ts",
+    "src/types/.d.ts",
+  ],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2019"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types/fonts.d.ts",
+      "src/types/.d.ts",
+    ],
+    "module": "esnext",
+    "target": "es6",
+    "outDir": "dist",
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "importsNotUsedAsValues": "remove",
+    "jsx": "react",
+    "strict": true,
+    "moduleResolution": "Node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+
+    "noImplicitAny": false
+  }
+}
