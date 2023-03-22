@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/mkdir-dev/form/static/js/main.bee0a445.js",
+    "index.html": "/mkdir-dev/form/index.html",
+    "main.bee0a445.js.map": "/mkdir-dev/form/static/js/main.bee0a445.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bee0a445.js"
+  ]
+}
