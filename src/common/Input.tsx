@@ -1,14 +1,9 @@
 import React, { useState } from 'react';
-import {
-  Controller,
-  Control,
-  FieldValues,
-  Path,
-  RegisterOptions,
-} from 'react-hook-form';
+import { Controller, Control, FieldValues, Path } from 'react-hook-form';
 import { TextField, TextFieldProps, IconButton } from '@mui/material';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import VisibilityOffOutlinedIcon from '@mui/icons-material/VisibilityOffOutlined';
+import { typesInput } from 'utils/constants';
 
 type InputProps<T extends FieldValues = FieldValues> = Omit<
   TextFieldProps,
@@ -16,13 +11,6 @@ type InputProps<T extends FieldValues = FieldValues> = Omit<
 > & {
   control?: Control<T>;
   name: Path<T>;
-  rules?: RegisterOptions<T>;
-};
-
-const typesInput = {
-  inputText: 'text',
-  inputEmail: 'email',
-  inputPassword: 'password',
 };
 
 export const Input = (props: InputProps) => {

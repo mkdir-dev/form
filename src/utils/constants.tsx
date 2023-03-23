@@ -31,3 +31,9 @@ export const formFields: FormFields[] = [
     required: true,
   },
 ];
+
+export const typesInput = {
+  inputText: 'text',
+  inputEmail: 'email',
+  inputPassword: 'password',
+};
